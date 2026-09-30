@@ -11,6 +11,7 @@ public class CatlogServiceApplication {
 	public static void main(String[] args) {
 		TimeZone.setDefault(TimeZone.getTimeZone("Asia/Kolkata"));
 		SpringApplication.run(CatlogServiceApplication.class, args);
+		System.out.println("Catlog Service is running on port 8082");
 	}
 
 }
